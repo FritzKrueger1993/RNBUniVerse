@@ -15,7 +15,7 @@ class Line{
      
    }
    show(){
-     stroke(this.color);
+     stroke(this.color,180,360);
      ellipse(this.x,this.y,1,1);
    }
   
