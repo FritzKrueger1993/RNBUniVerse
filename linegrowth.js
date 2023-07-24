@@ -1,7 +1,7 @@
 let line1
 
 function setup() {
-  createCanvas(500,500);
+  createCanvas(windowWidth,windowHeight);
   colorMode(HSB, 360);
   background(0);
   line1 = new Line();
